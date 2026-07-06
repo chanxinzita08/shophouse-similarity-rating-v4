@@ -1,0 +1,94 @@
+trial_id,condition,image_A,image_B,visual_A,visual_B,graph_A,graph_B,visual_similarity_score,graph_similarity_score,screening_score,is_practice
+practice_01,practice_similar,CT_45_SOUTH_BRIDGE_Rd_A_04_facade.jpg,KG_03_Arab St_A_23_facade.jpg,13,13,,,1.0,,practice,True
+practice_02,practice_medium,LD_14_DESKER_Rd_B_31_facade.jpg,LD_18_DUNLOP_St_B_47_facade.jpg,16,27,,,0.9386,,practice,True
+practice_03,practice_dissimilar,LD_47_VEERASAMY_Rd_A_05_facade.jpg,CT_47_STANLEY_St_14_facade.jpg,1,29,,,0.608,,practice,True
+practice_04,practice_similar,LD_04_CAMPBELL_LANE_B_14_facade.jpg,LD_13_DESKER_Rd_A_16_facade.jpg,11,11,,,1.0,,practice,True
+practice_05,practice_medium,LD_23_Jalan Besar Rd_B_15_facade.jpg,KG_03_Arab St_A_52_facade.jpg,27,19,,,0.9921,,practice,True
+practice_06,practice_dissimilar,LD_12_DALHOUSIE LANE_B_04_facade.jpg,LD_39_Serangoon Rd_B_15_facade.jpg,27,12,,,0.9769,,practice,True
+practice_07,practice_similar,KG_27_North Bridge Rd_A_23_facade.jpg,CT_60_TRAS_B_St_06_facade.jpg,27,23,,,0.8989,,practice,True
+practice_08,practice_medium,CT_44_SMITH_St_04_facade.jpg,LD_23_Jalan Besar Rd_B_18_facade.jpg,12,27,,,0.9576,,practice,True
+practice_09,practice_dissimilar,CT_34_NEIL_A_Rd_03_facade.jpg,CT_18_DUXTON_A_Rd_07_facade.jpg,23,22,,,0.9896,,practice,True
+practice_10,practice_similar,CT_46_SOUTH_BRIDGE_Rd_B_46_facade.jpg,CT_46_SOUTH_BRIDGE_Rd_B_47_facade.jpg,28,28,,,0.9993,,practice,True
+practice_11,practice_medium,CT_01_AMOY_A_St_21_facade.jpg,CT_46_SOUTH_BRIDGE_Rd_B_42_facade.jpg,29,26,,,0.9752,,practice,True
+practice_12,practice_similar,CT_34_NEIL_A_Rd_03_facade.jpg,CT_17_CRAIG_Rd_B_09_facade.jpg,23,23,,,0.9963,,practice,True
+practice_13,practice_medium,CT_08_ANN_SIANG_Rd_B_08_facade.jpg,CT_59_TRAS_A_St_07_facade.jpg,12,12,,,0.9985,,practice,True
+practice_14,practice_dissimilar,CT_08_ANN_SIANG_Rd_B_08_facade.jpg,CT_41_SAGO_Rd_09_facade.jpg,12,22,,,0.7783,,practice,True
+practice_15,practice_similar,CT_34_NEIL_A_Rd_03_facade.jpg,CT_24_JIAK_CHUAN_Rd_05_facade.jpg,23,12,,,0.8769,,practice,True
+practice_16,practice_medium,LD_13_DESKER_Rd_A_03_facade.jpg,LD_14_DESKER_Rd_B_07_facade.jpg,18,18,,,0.9981,,practice,True
+practice_17,practice_dissimilar,CT_11_BUKIT_PASOH_A_Rd_03_facade.jpg,KG_24_Kandahar St_7_facade.jpg,12,16,,,0.8712,,practice,True
+practice_18,practice_similar,KG_13_Jalan Klapa_A_2_facade.jpg,KG_14_Jalan Klapa_B_4_facade.jpg,18,18,,,0.9994,,practice,True
+practice_19,practice_medium,KG_03_Arab St_A_24_facade.jpg,KG_03_Arab St_A_7_facade.jpg,-1,27,,,0.9992,,practice,True
+practice_20,practice_dissimilar,CT_64_UPPER_CROSS_St_13_facade.jpg,LD_22_Japan Besar Rd_A_07_facade.jpg,12,15,,,0.8489,,practice,True
+practice_21,practice_similar,CT_01_AMOY_A_St_14_facade.jpg,CT_41_SAGO_Rd_09_facade.jpg,29,22,,,0.884,,practice,True
+practice_22,practice_medium,BQ_05_LOK TELOK Rd_B_03_facade.jpg,CT_25_KEONG_SAIK_A_Rd_25_facade.jpg,22,8,,,0.9616,,practice,True
+hdbscan_best_VnSp_0342,VnSp,KG_21_Jalan Pisang_A_1_facade.jpg,LD_37_ROWELL_Rd_B_43_facade.jpg,19,27,1,1,0.9949,1.0,100,False
+hdbscan_best_VnSn_0513,VnSn,BQ_07_BOAT QUEY_13_facade.jpg,LD_41_Syed Alwi Rd_B_38_facade.jpg,12,16,22,14,0.9574,0.1502,100,False
+hdbscan_best_VnSp_0416,VnSp,CT_28_KRETA_AYER_Rd_05_facade.jpg,CT_13_CLUB_A_St_06_facade.jpg,30,23,6,6,0.9893,0.8143,100,False
+hdbscan_best_VnSn_0600,VnSn,CT_08_ANN_SIANG_Rd_B_02_facade.jpg,CT_39_PAGODA_B_St_17_facade.jpg,22,12,27,8,0.9194,-0.1862,100,False
+hdbscan_best_VnSp_0427,VnSp,LD_38_Serangoon Rd_A_11_facade.jpg,KG_07_Bali Lane_23_facade.jpg,28,12,2,2,0.9937,0.81,100,False
+hdbscan_best_VnSp_0301,VnSp,CT_28_KRETA_AYER_Rd_23_facade.jpg,CT_37_NEW_BRIDGE_Rd_16_facade.jpg,14,22,27,27,0.998,0.8844,100,False
+hdbscan_best_VpSp_0001,VpSp,KG_10_Bussorsh St_B_18_facade.jpg,KG_10_Bussorsh St_B_7_facade.jpg,30,30,2,2,1.0,0.8145,100,False
+hdbscan_best_VpSn_0186,VpSn,KG_03_Arab St_A_48_facade.jpg,KG_11_Haji Lane_A_39_facade.jpg,2,2,9,2,1.0,0.1581,80,False
+hdbscan_best_VpSn_0290,VpSn,KG_22_Jalan Pisang_B_3_facade.jpg,CT_53_TEMPLE_B_St_02_facade.jpg,20,20,2,6,1.0,0.6003,100,False
+hdbscan_best_VnSp_0449,VnSp,KG_08_Beach Rd_34_facade.jpg,KG_12_Haji Lane_B_11_facade.jpg,26,24,1,1,0.9943,0.9718,100,False
+manual_added_0003,VnSp,KG_09_Bussorsh St_A_21_facade.jpg,KG_23_Jalan Sultan_43_facade.jpg,16,29,20,20,0.9745,0.9952,100,False
+manual_added_0005,VpSn,KG_23_Jalan Sultan_6_facade.jpg,LD_40_Syed Alwi Rd_A_43_facade.jpg,3,3,16,22,1.0,0.1143,100,False
+hdbscan_best_VnSp_0434,VnSp,KG_10_Bussorsh St_B_22_facade.jpg,LD_19_HASTINGS ROAD_02_facade.jpg,30,29,6,6,0.9903,0.4905,50,False
+hdbscan_best_VnSp_0433,VnSp,CT_45_SOUTH_BRIDGE_Rd_A_03_facade.jpg,KG_11_Haji Lane_A_08_facade.jpg,23,12,6,6,0.949,0.1594,50,False
+hdbscan_best_VpSp_0015,VpSp,CT_14_CLUB_B_St_27_facade.jpg,CT_07_ANN_SIANG_Rd_A_02_facade.jpg,23,23,23,23,0.9997,0.7059,100,False
+hdbscan_best_VnSp_0399,VnSp,KG_10_Bussorsh St_B_24_facade.jpg,KG_27_North Bridge Rd_A_44_facade.jpg,30,23,6,6,0.9801,0.1886,50,False
+hdbscan_best_VpSp_0011,VpSp,KG_23_Jalan Sultan_17_facade.jpg,KG_23_Jalan Sultan_12_facade.jpg,3,3,1,1,1.0,1.0,100,False
+hdbscan_best_VpSp_0058,VpSp,CT_26_KEONG_SAIK_B_Rd_25_facade.jpg,BQ_03_NORTH BRIDGE Rd_03_facade.jpg,12,12,13,13,0.9886,0.6742,50,False
+hdbscan_best_VnSp_0329,VnSp,KG_10_Bussorsh St_B_32_facade.jpg,LD_41_Syed Alwi Rd_B_04_facade.jpg,24,19,2,2,0.995,0.9884,100,False
+hdbscan_best_VnSn_0481,VnSn,BQ_04_LOK TELOK Rd_A_03_facade.jpg,LD_04_CAMPBELL_LANE_B_13_facade.jpg,30,16,2,20,0.973,0.1377,100,False
+hdbscan_best_VpSp_0035,VpSp,CT_40_PECKSEAH_St_10_facade.jpg,CT_40_PECKSEAH_St_16_facade.jpg,5,5,23,23,1.0,0.9975,100,False
+hdbscan_best_VnSn_0558,VnSn,CT_60_TRAS_B_St_02_facade.jpg,CT_64_UPPER_CROSS_St_01_facade.jpg,22,29,23,19,0.9609,0.051,100,False
+hdbscan_best_VnSp_0373,VnSp,CT_03_AMOY_St_02_facade.jpg,CT_14_CLUB_B_St_29_facade.jpg,13,23,5,5,0.9987,0.1662,50,False
+hdbscan_best_VnSp_0415,VnSp,LD_39_Serangoon Rd_B_31_facade.jpg,LD_48_VEERASAMY_Rd_B_03_facade.jpg,29,12,5,5,0.9609,0.6315,50,False
+hdbscan_best_VnSn_0580,VnSn,BQ_03_NORTH BRIDGE Rd_17_facade.jpg,KG_11_Haji Lane_A_12_facade.jpg,12,24,10,2,0.9797,0.0246,100,False
+hdbscan_best_VnSn_0462,VnSn,CT_20_DUXTON_HILL_A_19_facade.jpg,LD_40_Syed Alwi Rd_A_32_facade.jpg,29,12,18,14,0.9728,-0.0542,100,False
+hdbscan_best_VnSp_0306,VnSp,LD_13_DESKER_Rd_A_34_facade.jpg,CT_38_PAGODA_A_St_02_facade.jpg,16,22,21,21,0.9831,0.6024,80,False
+hdbscan_best_VpSp_0042,VpSp,LD_18_DUNLOP_St_B_12_facade.jpg,LD_24_Kerbau Rd_A_26_facade.jpg,17,17,6,6,0.9999,0.7357,100,False
+hdbscan_best_VpSp_0130,VpSp,CT_28_KRETA_AYER_Rd_21_facade.jpg,CT_59_TRAS_A_St_15_facade.jpg,14,14,27,27,1.0,0.8285,50,False
+hdbscan_best_VpSn_0188,VpSn,LD_38_Serangoon Rd_A_23_facade.jpg,CT_13_CLUB_A_St_01_facade.jpg,9,9,5,11,0.9993,0.4763,50,False
+hdbscan_best_VpSp_0061,VpSp,CT_32_MOSQUE_B_St_11_facade.jpg,CT_21_DUXTON_HILL_B_06_facade.jpg,22,22,26,26,0.9998,0.9239,100,False
+hdbscan_best_VpSn_0294,VpSn,KG_27_North Bridge Rd_A_37_facade.jpg,KG_27_North Bridge Rd_A_39_facade.jpg,6,6,6,7,1.0,0.599,100,False
+hdbscan_best_VpSn_0228,VpSn,KG_28_North Bridge Rd_B_4_facade.jpg,CT_46_SOUTH_BRIDGE_Rd_B_43_facade.jpg,26,26,2,18,1.0,0.1953,100,False
+hdbscan_best_VnSp_0442,VnSp,BQ_02_CIRCULAR Rd_B_25_facade.jpg,CT_27_KEONG_SAIK_Rd_02_facade.jpg,12,7,10,10,0.95,0.4821,100,False
+hdbscan_best_VnSp_0393,VnSp,CT_01_AMOY_A_St_10_facade.jpg,CT_42_SMITH_A_St_10_facade.jpg,29,13,19,19,0.9835,0.6133,100,False
+hdbscan_best_VpSn_0194,VpSn,LD_47_VEERASAMY_Rd_A_01_facade.jpg,LD_47_VEERASAMY_Rd_A_19_facade.jpg,1,1,5,6,0.9999,-0.4294,50,False
+hdbscan_best_VpSn_0172,VpSn,KG_23_Jalan Sultan_14_facade.jpg,KG_23_Jalan Sultan_5_facade.jpg,3,3,1,16,1.0,0.1628,50,False
+hdbscan_best_VpSp_0079,VpSp,KG_10_Bussorsh St_B_11_facade.jpg,KG_22_Jalan Pisang_B_3_facade.jpg,20,20,2,2,0.9998,0.7014,100,False
+hdbscan_best_VpSp_0091,VpSp,LD_39_Serangoon Rd_B_73_facade.jpg,LD_01_Belicose Ln_11_facade.jpg,26,26,2,2,0.9996,0.9884,100,False
+hdbscan_best_VpSp_0135,VpSp,CT_16_CRAIG_Rd_A_01_facade.jpg,LD_41_Syed Alwi Rd_B_34_facade.jpg,15,15,14,14,0.9998,0.7542,50,False
+hdbscan_best_VpSp_0010,VpSp,CT_27_KEONG_SAIK_Rd_03_facade.jpg,CT_37_NEW_BRIDGE_Rd_30_facade.jpg,7,7,13,13,1.0,0.6991,80,False
+hdbscan_best_VpSn_0235,VpSn,KG_14_Jalan Klapa_B_8_facade.jpg,CT_25_KEONG_SAIK_A_Rd_33_facade.jpg,8,8,17,21,1.0,0.5696,100,False
+hdbscan_best_VpSp_0005,VpSp,CT_25_KEONG_SAIK_A_Rd_32_facade.jpg,CT_25_KEONG_SAIK_A_Rd_31_facade.jpg,8,8,21,21,1.0,0.9995,100,False
+hdbscan_best_VnSp_0313,VnSp,CT_35_NEIL_B_Rd_33_facade.jpg,CT_17_CRAIG_Rd_B_01_facade.jpg,29,16,23,23,0.9756,0.7794,100,False
+hdbscan_best_VpSn_0179,VpSn,CT_31_MOSQUE_A_St_11_facade.jpg,LD_35_Race Course_20_facade.jpg,29,29,17,23,0.9938,-0.0249,100,False
+hdbscan_best_VnSn_0547,VnSn,CT_35_NEIL_B_Rd_40_facade.jpg,CT_57_TGPAGAR_A_Rd_18_facade.jpg,23,29,23,4,0.9748,0.197,100,False
+hdbscan_best_VnSp_0385,VnSp,LD_22_Japan Besar Rd_A_21_facade.jpg,KG_31_Sultan Gate_B_5_facade.jpg,2,29,6,6,0.9542,0.5894,50,False
+hdbscan_best_VpSp_0125,VpSp,CT_43_SMITH_B_St_03_facade.jpg,CT_54_TEMPLE_A_St_22_facade.jpg,13,13,19,19,1.0,0.9706,100,False
+hdbscan_best_VpSp_0097,VpSp,LD_16_ DICKSON_Rd_B_09_facade.jpg,LD_37_ROWELL_Rd_B_34_facade.jpg,11,11,6,6,0.9998,0.4771,50,False
+hdbscan_best_VnSn_0595,VnSn,LD_13_DESKER_Rd_A_54_facade.jpg,CT_51_TELOK_AYER_B_St_26_facade.jpg,12,23,6,19,0.9311,-0.0653,50,False
+hdbscan_best_VnSn_0451,VnSn,CT_25_KEONG_SAIK_A_Rd_25_facade.jpg,KG_23_Jalan Sultan_23_facade.jpg,8,28,21,12,0.9678,-0.2328,100,False
+hdbscan_best_VpSn_0167,VpSn,LD_47_VEERASAMY_Rd_A_19_facade.jpg,LD_20_HINDOO_Rd_B_19_facade.jpg,1,1,6,5,0.9999,-0.4294,80,False
+hdbscan_best_VpSp_0066,VpSp,KG_28_North Bridge Rd_B_11_facade.jpg,LD_39_Serangoon Rd_B_74_facade.jpg,26,26,2,2,1.0,0.9884,100,False
+hdbscan_best_VpSn_0208,VpSn,LD_45_UPPER_WELD_Rd_A_33_facade.jpg,KG_04_Arab St_B_21_facade.jpg,6,6,14,5,1.0,-0.3462,100,False
+hdbscan_best_VnSn_0556,VnSn,CT_31_MOSQUE_A_St_01_facade.jpg,CT_35_NEIL_B_Rd_03_facade.jpg,30,29,2,17,0.9962,-0.3186,100,False
+hdbscan_best_VpSn_0155,VpSn,KG_23_Jalan Sultan_6_facade.jpg,KG_23_Jalan Sultan_11_facade.jpg,3,3,16,1,1.0,0.1465,50,False
+hdbscan_best_VnSn_0452,VnSn,KG_01_Aliwal St_A_10_facade.jpg,LD_45_UPPER_WELD_Rd_A_38_facade.jpg,10,27,14,6,0.9754,-0.2198,100,False
+hdbscan_best_VpSn_0173,VpSn,LD_35_Race Course_14_facade.jpg,KG_11_Haji Lane_A_08_facade.jpg,12,12,8,6,0.9946,0.495,100,False
+hdbscan_best_VpSn_0241,VpSn,LD_45_UPPER_WELD_Rd_A_03_facade.jpg,CT_40_PECKSEAH_St_02_facade.jpg,5,5,5,23,0.9999,0.1614,50,False
+hdbscan_best_VnSn_0525,VnSn,LD_45_UPPER_WELD_Rd_A_23_facade.jpg,CT_56_TEO_HONG_Rd_10_facade.jpg,6,23,14,21,0.9897,0.0058,100,False
+hdbscan_best_VpSn_0182,VpSn,KG_01_Aliwal St_A_5_facade.jpg,KG_14_Jalan Klapa_B_6_facade.jpg,10,10,14,17,0.9998,0.3433,100,False
+hdbscan_best_VnSn_0496,VnSn,LD_24_Kerbau Rd_A_22_facade.jpg,CT_32_MOSQUE_B_St_03_facade.jpg,19,21,4,5,0.9569,-0.0676,100,False
+hdbscan_best_VpSp_0039,VpSp,KG_29_Penang St_10_facade.jpg,LD_01_Belicose Ln_03_facade.jpg,4,4,5,5,1.0,0.7097,50,False
+hdbscan_best_VnSp_0406,VnSp,CT_16_CRAIG_Rd_A_12_facade.jpg,CT_47_STANLEY_St_07_facade.jpg,29,22,19,19,0.9694,0.6792,100,False
+hdbscan_best_VpSp_0028,VpSp,KG_03_Arab St_A_37_facade.jpg,KG_03_Arab St_A_33_facade.jpg,2,2,2,2,1.0,0.6693,50,False
+hdbscan_best_VnSp_0318,VnSp,CT_14_CLUB_B_St_06_facade.jpg,LD_41_Syed Alwi Rd_B_02_facade.jpg,25,19,2,2,0.999,0.8241,100,False
+hdbscan_best_VnSn_0466,VnSn,LD_18_DUNLOP_St_B_45_facade.jpg,CT_11_BUKIT_PASOH_A_Rd_05_facade.jpg,27,15,12,25,0.949,-0.1345,100,False
+hdbscan_best_VnSp_0308,VnSp,KG_14_Jalan Klapa_B_9_facade.jpg,LD_02_Buffalo Rd_21_facade.jpg,16,27,6,6,0.98,0.1689,100,False
+hdbscan_best_VpSp_0121,VpSp,KG_01_Aliwal St_A_6_facade.jpg,CT_59_TRAS_A_St_25_facade.jpg,10,10,14,14,0.9999,0.9998,100,False
+hdbscan_best_VpSp_0105,VpSp,LD_04_CAMPBELL_LANE_B_14_facade.jpg,LD_37_ROWELL_Rd_B_34_facade.jpg,11,11,6,6,1.0,0.7765,50,False
+hdbscan_best_VnSn_0527,VnSn,CT_59_TRAS_A_St_14_facade.jpg,KG_11_Haji Lane_A_08_facade.jpg,14,12,27,6,0.9332,-0.3404,100,False
